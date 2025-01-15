@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Command: ls</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .command-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            background-color: #fafafa;
+            transition: all 0.3s ease;
+        }
+
+        .command-section:hover {
+            border-color: #444;
+            background-color: #f1f1f1;
+        }
+
+        .command-section h2 {
+            font-size: 1.8em;
+            color: #444;
+        }
+
+        .command-section p {
+            margin: 10px 0;
+        }
+
+        .example {
+            background: #f9f9f9;
+            border-left: 5px solid #444;
+            padding: 10px;
+            margin: 10px 0;
+            font-family: monospace;
+            color: #444;
+            transition: all 0.3s ease;
+        }
+
+        .example:hover {
+            background-color: #f1f1f1;
+            border-left: 5px solid #222;
+        }
+
+        .image {
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .image img {
+            max-width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .image img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Linux Command: ls</h1>
+    </header>
+
+    <div class="container">
+        <!-- Description Section -->
+        <div class="command-section">
+            <h2>Description</h2>
+            <p>The <code>ls</code> command is used to list the contents of a directory in Linux. It provides information about files and subdirectories within a directory.</p>
+        </div>
+
+        <!-- Purpose and Usage Section -->
+        <div class="command-section">
+            <h2>Purpose and Usage</h2>
+            <p>The primary purpose of the <code>ls</code> command is to allow users to view files and directories. It is commonly used to navigate and understand the structure of the file system.</p>
+            <p><strong>Usage:</strong> <code>ls [options] [directory]</code></p>
+        </div>
+
+        <!-- Examples Section -->
+        <div class="command-section">
+            <h2>Examples</h2>
+            <p><strong>Basic Usage:</strong> List all files and directories in the current directory:</p>
+            <div class="example">
+                ls
+            </div>
+
+            <p><strong>Detailed Listing:</strong> Use the <code>-l</code> option to show file details like permissions, owner, size, and modification date:</p>
+            <div class="example">
+                ls -l
+            </div>
+
+            <p><strong>Show Hidden Files:</strong> Use the <code>-a</code> option to include hidden files in the listing:</p>
+            <div class="example">
+                ls -a
+            </div>
+
+            <p><strong>Reverse Order:</strong> Use the <code>-r</code> option to list files in reverse order:</p>
+            <div class="example">
+                ls -r
+            </div>
+
+            <p><strong>Sort by Time:</strong> Use the <code>-t</code> option to sort files by modification time, with the most recently modified files first:</p>
+            <div class="example">
+                ls -t
+            </div>
+
+            <p><strong>Sort by Size:</strong> Use the <code>-s</code> option to display file sizes and sort by size:</p>
+            <div class="example">
+                ls -s
+            </div>
+        </div>
+
+        <!-- Images Section -->
+        <div class="command-section">
+            <h2>Visual Examples</h2>
+            <div class="image">
+                <img src="ls.jpeg" alt="Example of ls Command Output">
+            </div>
+        </div>
+
+        <!-- Additional Explanatory Text Section -->
+        <div class="command-section">
+            <h2>Additional Information</h2>
+            <p>The <code>ls</code> command is one of the most frequently used commands in Linux. It is essential for navigating directories and inspecting their contents. Understanding its options can significantly enhance your efficiency when working with the Linux file system.</p>
+        </div>
+    </div>
+
+</body>
+</html>
